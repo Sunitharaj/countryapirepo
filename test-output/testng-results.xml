@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="5" failed="0" total="5" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="50255254" started-at="2020-05-07T05:22:49Z" finished-at="2020-05-07T19:20:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="50255254" started-at="2020-05-07T05:22:49Z" finished-at="2020-05-07T19:20:25Z">
+      <class name="eu.restcountries.restservices.test.CountryAPIGETTestUsingConsole">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:eu.restcountries.restservices.test.CountryAPIGETTestUsingConsole@9629756]" name="setUp" is-config="true" duration-ms="0" started-at="2020-05-06T22:22:49Z" finished-at="2020-05-06T22:22:49Z">
+          <exception class="java.util.NoSuchElementException">
+            <full-stacktrace>
+              <![CDATA[java.util.NoSuchElementException
+	at java.util.Scanner.throwFor(Scanner.java:862)
+	at java.util.Scanner.next(Scanner.java:1371)
+	at eu.restcountries.restservices.core.CountryBaseTest.userInput(CountryBaseTest.java:27)
+	at eu.restcountries.restservices.test.CountryAPIGETTestUsingConsole.setUp(CountryAPIGETTestUsingConsole.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:589)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="GetTestValidParameters()[pri:0, instance:eu.restcountries.restservices.test.CountryAPIGETTestUsingConsole@9629756]" name="GetTestValidParameters" duration-ms="14" started-at="2020-05-07T12:20:24Z" finished-at="2020-05-07T12:20:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetTestValidParameters -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:eu.restcountries.restservices.test.CountryAPIGETTestUsingConsole@9629756]" name="setUp" is-config="true" duration-ms="0" started-at="2020-05-07T12:20:24Z" finished-at="2020-05-07T12:20:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="GetTestWithInvalidParameters()[pri:1, instance:eu.restcountries.restservices.test.CountryAPIGETTestUsingConsole@9629756]" name="GetTestWithInvalidParameters" duration-ms="9" started-at="2020-05-07T12:20:24Z" finished-at="2020-05-07T12:20:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetTestWithInvalidParameters -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:eu.restcountries.restservices.test.CountryAPIGETTestUsingConsole@9629756]" name="setUp" is-config="true" duration-ms="0" started-at="2020-05-07T12:20:24Z" finished-at="2020-05-07T12:20:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="GetTestWithSpecialCharacters()[pri:2, instance:eu.restcountries.restservices.test.CountryAPIGETTestUsingConsole@9629756]" name="GetTestWithSpecialCharacters" duration-ms="6" started-at="2020-05-07T12:20:24Z" finished-at="2020-05-07T12:20:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetTestWithSpecialCharacters -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:eu.restcountries.restservices.test.CountryAPIGETTestUsingConsole@9629756]" name="setUp" is-config="true" duration-ms="0" started-at="2020-05-07T12:20:24Z" finished-at="2020-05-07T12:20:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="GetTestWithInvalidDataType()[pri:3, instance:eu.restcountries.restservices.test.CountryAPIGETTestUsingConsole@9629756]" name="GetTestWithInvalidDataType" duration-ms="6" started-at="2020-05-07T12:20:24Z" finished-at="2020-05-07T12:20:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetTestWithInvalidDataType -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:eu.restcountries.restservices.test.CountryAPIGETTestUsingConsole@9629756]" name="setUp" is-config="true" duration-ms="0" started-at="2020-05-07T12:20:25Z" finished-at="2020-05-07T12:20:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="GetTestWithBlank()[pri:4, instance:eu.restcountries.restservices.test.CountryAPIGETTestUsingConsole@9629756]" name="GetTestWithBlank" duration-ms="41" started-at="2020-05-07T12:20:25Z" finished-at="2020-05-07T12:20:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetTestWithBlank -->
+      </class> <!-- eu.restcountries.restservices.test.CountryAPIGETTestUsingConsole -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
